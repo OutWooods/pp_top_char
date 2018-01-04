@@ -1,9 +1,9 @@
 require_relative "cards"
 
 class Deck
-
+     attr_reader :card_pile
      def initialize() 
-       @card_store = []
+       @card_pile = []
      end
 
 	def take_card 
@@ -11,6 +11,7 @@ class Deck
     end
 
     def give_cards(pile)
-      @card_store += pile
+      @card_pile+= pile
     end
+
 end
