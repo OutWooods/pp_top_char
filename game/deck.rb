@@ -11,7 +11,7 @@ class Deck
     end
 
     def give_cards(pile)
-      @card_pile+= pile
+      @card_pile += pile
     end
 
 end

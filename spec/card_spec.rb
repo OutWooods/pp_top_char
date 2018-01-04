@@ -8,7 +8,7 @@ describe Card do
  	it {is_expected.to respond_to(:first_appearance)}
 
 
- 	  it "inportance should have default value" do 
+ 	  it "importance should have default value" do 
   	expect(Card.new.importance).to eq(Card::DEFAULT_POINTS)
   end
 
